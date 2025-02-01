@@ -1,1 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Service </title>
+    <link rel="stylesheet" href="surveyform.css">
+  </head>
 
+  <body>
+    <div class="container">
+      <h1 id="title" class="center">Survey form</h1>
+      <p id="description" class="center">Thank you for availing our web development services! We would like to ask for your feedback on our performance.</p>
+
+     
+      <form id="survey-form">
+         <section>
+          <div class="info">
+            <label id="name-label">Name</label> 
+            <input type="text" id="name" name="name" required placeholder="Full Name"/>
+          </div>
+
+          <div class="info">
+            <label id="email-label">Email</label> 
+            <input type="email" id="email" name="email" required placeholder="Your email@gmail.com"/>
+          </div>
+
+          <div class="info">
+            <label id="number-label">Age</label>
+            <input type="number" id="number" name="age"   max="100" min="18" placeholder="How old are you?"/>
+          </div>
+        </section>
+        
+        <div class="divider"></div>
+          
+        <section>
+          <select id="dropdown">
+            <option>Service rating (1-5)</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+
+          <div class="boxandbutton">
+            <div class="radio-buttons">
+              <p>Will you recommend our services?</p>
+                <label for="yes">
+                  <input type="radio" id="yes" name="attribute" value="Yes"> Yes
+                </label>
+
+                <label for="no">
+                  <input type="radio" id="no" name="attribute" value="No"> No
+                </label>
+            </div>
+            
+            <div class="checkbox">
+              <p>What did you like most about our service?</p>
+              <label>
+                <input type="checkbox" value="Checkbox1"/>Quality of service
+              </label>
+
+              <label>
+                <input type="checkbox" value="Checkbox1"/>Fast service time
+              </label>
+              </legend>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+          
+          <label id="textarea-div"> How can we improve?
+            <div class="textarea-div">
+              <textarea rows="8"></textarea>
+            </div>
+        </section>
+
+        <div class="center">
+                  <button type="submit" value="submit" id="submit">Submit</button>
+        <div>
+
+      </form>
+    </div>
+  </body>
+</html>
