@@ -1,0 +1,255 @@
+:root{
+  --text-color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto Mono;
+  scroll-behavior: smooth;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar{
+  background-color: #002244;
+  height: 15vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: -15;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+#navbar ul{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#navbar a, footer a{
+  font-size: 1.2em;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+#navbar a:hover{
+  text-shadow: 0px 5px 8px white;
+}
+
+#welcome-section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(-45deg, white, gray, #003153);
+  color: white;
+  text-shadow: 4px 4px 2px #0C2340;;
+}
+
+#welcome-section h1:hover, #welcome-section h3:hover{
+  transform: scale(1.5);
+}
+
+#welcome-section h3{
+  padding-top: 1em;
+  width: 50%;
+  text-align: center;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 
+      minmax(2rem, 1fr) 
+      minmax(min-content, 8fr) 
+      minmax(2rem, 1fr);
+    ;
+}
+
+.project-header{
+  grid-column: 2 / 3;
+  text-align: center;
+  margin: 2em;
+  color: red;
+}
+
+.bar{
+  grid-column: 2 / 3;
+  height: 2em;
+  width: 100%;
+  background-color: black;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+}
+
+.circle{
+  height:1em;
+  width: 1em;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 28%;
+}
+
+.circle.first{
+  background-color: green; 
+  left: 95%;
+}
+
+.circle.second{
+  background-color: yellow; 
+  left: 92%;
+}
+
+.circle.third{
+  background-color: red; 
+  left: 89%;
+}
+
+.projects-container{
+  grid-column: 2 / 3;
+  box-shadow: 0px 0px 5px 3px gray;
+  border-radius: 5px;
+  margin-bottom: 4em;
+}
+
+#projects{
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-template-rows: repeat(5, 300px);
+  border: 1px solid gray;
+  border-radius: 0 0 5px 5px;
+  min-height: 100vh;
+  padding: 1em;
+  gap: 2em;
+}
+
+.project-tile{
+  max-height: 300px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  box-shadow: 0px 0px 5px 3px gray;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 3px gray;
+}
+
+img:hover{
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+.project-tile, .project-description{
+  border-radius: 10px;
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+  gap: 1em;
+  color: var(--text-color);
+  text-align: justify;
+  background-color: rgb(72,84,124);
+}
+
+.project-title{
+  flex: 1;
+}
+
+.project-paragraph{
+  flex: 4;
+}
+
+footer{
+  grid-column: 1 / 4;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #002244;
+}
+
+footer p{
+  display: flex; 
+  align-items: center; 
+  gap: 0.5em; 
+  color: white;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+footer p:hover{
+  color: violet;
+  transform: translateY(-8px);
+}
+
+footer a{
+  color: inherit; 
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: inherit;
+}
+
+footer a:active{
+  color: purple;
+}
+
+@media screen and (max-width: 1200px){
+  .project-description{
+    padding: 2em;
+    /* background-color: green; */
+  }
+
+  
+}
+
+@media screen and (max-width: 1060px){
+  .project-description{
+    /* background-color: red; */
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 1020px){
+  #navbar ul{
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #projects{
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-description{
+    /* background-color: blue; */
+    padding: 2em;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .project-description{
+    /* background-color: violet; */
+    padding: 1em;
+    height: 200px;
+  }
+}
