@@ -75,11 +75,20 @@ main{
     ;
 }
 
-.project-header{
+.buttons-container{
+  /* border: 1px solid black; */
+  grid-column: 2 / 3;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  margin: 1em;
+}
+
+.switch-button{
   grid-column: 2 / 3;
   text-align: center;
-  margin: 2em;
-  color: red;
 }
 
 .bar{
@@ -131,6 +140,12 @@ main{
   border-radius: 0 0 5px 5px;
   min-height: 100vh;
   padding: 1em;
+  gap: 1em;
+}
+
+.project-row{
+  grid-column: 1 / 3;
+  display: flex;
   gap: 2em;
 }
 
@@ -161,11 +176,15 @@ img:hover{
 .project-description{
   display: flex;
   flex-direction: column;
+
+  width: 100%;
+
   padding: 3em;
   gap: 1em;
-  color: var(--text-color);
-  text-align: justify;
+
   background-color: rgb(72,84,124);
+  text-align: justify;
+  color: var(--text-color);
 }
 
 .project-title{
