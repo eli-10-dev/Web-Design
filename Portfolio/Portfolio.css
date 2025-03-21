@@ -1,5 +1,6 @@
 :root{
   --text-color: white;
+  --navbar-color: #002244;
 }
 
 *{
@@ -15,8 +16,10 @@
   flex-direction: column;
 }
 
+
+/* HEADER */
 #navbar{
-  background-color: #002244;
+  background-color: var(--navbar-color);
   height: 15vh;
   display: flex;
   justify-content: flex-end;
@@ -45,6 +48,8 @@
   text-shadow: 0px 5px 8px white;
 }
 
+
+/* INTRO */
 #welcome-section{
   min-height: 100vh;
   display: flex;
@@ -66,6 +71,8 @@
   text-align: center;
 }
 
+
+/* PROJECTS */
 main{
   display: grid;
   grid-template-columns: 
@@ -88,7 +95,24 @@ main{
 
 .switch-button{
   grid-column: 2 / 3;
+  width: 10em;
+  height: 3em;
+  background-color: var(--navbar-color);
+  color: var(--text-color);
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px 3px rgb(119, 119, 119);
+  border-radius: 8px; 
   text-align: center;
+}
+
+.switch-button:hover{
+  background-color: var(--text-color);
+  color: var(--navbar-color);
+}
+
+.switch-button:active{
+  background-color: black;
+  color: var(--text-color);
 }
 
 .bar{
@@ -195,6 +219,8 @@ img:hover{
   flex: 4;
 }
 
+
+/* FOOTER */
 footer{
   grid-column: 1 / 4;
   height: 10vh;
