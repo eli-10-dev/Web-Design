@@ -45,28 +45,28 @@ const htmlCssArr = [
 
 const javaScriptArr = [
     {
-        href: "https://codepen.io/eli-10-dev/pen/gbOeEjQ",
+        href: "https://palindrome-checker-eli.netlify.app/",
         src: "https://uselessetymology.com/wp-content/uploads/2019/10/palindrome-useless-etymology-12.png?w=1200",
         alt: "Palindrome Checker",
         title: "Palindrome Checker Website",
         description: "A Palindrome Checker app made using HTML, CSS, and JavaScript",    
     },
     {
-        href: "https://codepen.io/eli-10-dev/pen/ogNqVmq",
+        href: "https://roman-numeral-converter-eli.netlify.app/",
         src: "https://c.tadst.com/gfx/1200x630/roman-numerals-table.png?1",
         alt: "Roman Numeral",
         title: "Roman Numeral Converter Website",
         description: "A Roman Numeral Converter Website made using HTML, CSS, and JavaScript",
     },
     {
-        href: "https://codepen.io/eli-10-dev/pen/YPzagMj",
+        href: "https://phone-number-validator-eli.netlify.app/",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQolfB7M3g9WbO71H7bwqhMz6JkTVwGTAwF97sE33YJ-OoI5Jmzm2Jdpk9KqoLBOYpaQPI&usqp=CAU",
         alt: "Phone Number",
         title: "US Phone number Validator Website",
         description: "A phone number validator website that checks if a given phone number is a US phone number. This is made using HTML, CSS, and Javascript",
     },
     {
-        href: "https://codepen.io/eli-10-dev/pen/jEOzJjb",
+        href: "https://cash-register-eli.netlify.app/",
         src: "https://i.pinimg.com/474x/86/22/69/862269c9e6f43b4f1b3067a78188f4a4.jpg",
         alt: "Cash register",
         title: "Cash register website",
