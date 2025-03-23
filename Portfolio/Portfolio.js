@@ -79,6 +79,13 @@ const javaScriptArr = [
         title: "Pokemon searcher Website",
         description: "A pokemon searcher website that fetches information from freeCodeCamp's pokemon activity API. It is made using HTML, CSS, and Javascript",
     },
+    {
+        href: "ticketing-website-eli.netlify.app",
+        src: "https://d1eipm3vz40hy0.cloudfront.net/images/AMER/threepeopleworking.png",
+        alt: "Ticketing Website",
+        title: "Ticketing Website",
+        description: "A ticketing website, essentially a to do list that...",
+    }
 ]
 
 const displayProjects = (array) => {
