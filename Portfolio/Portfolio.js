@@ -8,7 +8,7 @@ const javaScriptBtn = document.getElementById("javascript-button");
 const htmlCssArr = [
     {
         href: "//kairukpop.netlify.app/",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj1FFT6z0mUK65bmexX-OH2NlIJ1RKG809nQ&s",
+        src: "https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-6/291926969_429288872544744_8489221057371934983_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGyistP_0Ytf5VgCIBjteaa6kNxImSe5cfqQ3EiZJ7lxyLBgNRPRNi1UaXBVbifYj6gT4T9OhTe-nuG68ZdLsRj&_nc_ohc=ry6LXdmXpuMQ7kNvgFUzSEi&_nc_oc=Adkz5ju-AqXE2VyGuuDdBYFXvbh_Hkf0d1Kqoy3SkL75JjzD7BEYg-Z7wOEBh_Xk8wU&_nc_zt=23&_nc_ht=scontent.fmnl30-1.fna&_nc_gid=Zr-8ch4Rh-q19so22HzemA&oh=00_AYH7Oh4cWnsTQ9qlb7O_lCPqiNm4cfWON-S9OVBElV7B5w&oe=67E558D5",
         alt: "Kairu Kpop Shop logo",
         title: "Kairu Kpop Shop",
         description: "E-commerce website for a Kpop Shop selling photocards, clothes, accessories, and other merch! It is made using bootstrap.",    
@@ -73,8 +73,8 @@ const javaScriptArr = [
         description: "A cash register website made using HTML, CSS, and Javascript",
     },
     {
-        href: "#",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVSoeqTG9t5Z9rUOXiGgc_UlY0O1MYMl7RKg&s",
+        href: "https://pokemon-searcher-app-eli.netlify.app/",
+        src: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/81/af/1181af23-3768-f567-9ec8-c703ab212034/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
         alt: "Pokemon Wallpaper",
         title: "Pokemon searcher Website",
         description: "A pokemon searcher website that fetches information from freeCodeCamp's pokemon activity API. It is made using HTML, CSS, and Javascript",
