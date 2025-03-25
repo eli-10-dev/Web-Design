@@ -41,7 +41,7 @@ const htmlCssArr = [
         title: "Product Landing Webpage",
         description: "A product landing webpage on pool tables. It is made using both flex and grid layouts.",
     },
-]
+];
 
 const javaScriptArr = [
     {
@@ -80,26 +80,26 @@ const javaScriptArr = [
         description: "A pokemon searcher website that fetches information from freeCodeCamp's pokemon activity API. It is made using HTML, CSS, and Javascript",
     },
     {
-        href: "ticketing-website-eli.netlify.app",
+        href: "https://ticketing-website-eli.netlify.app/",
         src: "https://d1eipm3vz40hy0.cloudfront.net/images/AMER/threepeopleworking.png",
         alt: "Ticketing Website",
         title: "Ticketing Website",
-        description: "A ticketing website, essentially a to do list that...",
-    }
-]
+        description: "A ticketing website, essentially a to do list that",
+    },
+];
 
 const displayProjects = (array) => {
-    projectTileDescriptionContainer.innerHTML = array.map((object) => `
+    projectTileDescriptionContainer.innerHTML = array.map(({href, src, alt, title, description}) => `
         <div class="project-row" id="project-tile-description-container">
             <div class="project-tile">
-                <a href="${object.href}" target="_blank">
-                    <img src="${object.src}" alt="${object.alt}">
+                <a href="${href}" target="_blank">
+                    <img src="${src}" alt="${alt}">
                 </a>
             </div>
         
             <div class="project-description">
-                <h3 class="project-title">${object.title}</h3>
-                <p class="project-paragraph">${object.description}</p>
+                <h3 class="project-title">${title}</h3>
+                <p class="project-paragraph">${description}</p>
             </div>
         </div>
         `
