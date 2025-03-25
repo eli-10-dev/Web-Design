@@ -63,28 +63,28 @@ const javaScriptArr = [
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQolfB7M3g9WbO71H7bwqhMz6JkTVwGTAwF97sE33YJ-OoI5Jmzm2Jdpk9KqoLBOYpaQPI&usqp=CAU",
         alt: "Phone Number",
         title: "US Phone number Validator Website",
-        description: "A phone number validator website that checks if a given phone number is a US phone number. This is made using HTML, CSS, and Javascript",
+        description: "A phone number validator website that checks if a given phone number is a US phone number. This is made using HTML, CSS, and JavaScript",
     },
     {
         href: "https://cash-register-eli.netlify.app/",
         src: "https://i.pinimg.com/474x/86/22/69/862269c9e6f43b4f1b3067a78188f4a4.jpg",
         alt: "Cash register",
         title: "Cash register website",
-        description: "A cash register website made using HTML, CSS, and Javascript",
+        description: "A cash register website made using HTML, CSS, and JavaScript",
     },
     {
         href: "https://pokemon-searcher-app-eli.netlify.app/",
         src: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/81/af/1181af23-3768-f567-9ec8-c703ab212034/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
         alt: "Pokemon Wallpaper",
         title: "Pokemon searcher Website",
-        description: "A pokemon searcher website that fetches information from freeCodeCamp's pokemon activity API. It is made using HTML, CSS, and Javascript",
+        description: "A pokemon searcher website that fetches information from freeCodeCamp's pokemon activity API. It is made using HTML, CSS, and JavaScript",
     },
     {
         href: "https://ticketing-website-eli.netlify.app/",
         src: "https://d1eipm3vz40hy0.cloudfront.net/images/AMER/threepeopleworking.png",
         alt: "Ticketing Website",
         title: "Ticketing Website",
-        description: "A ticketing website, essentially a to do list that",
+        description: "A ticketing website that displayed tickets based on their status (backlog, in progress, completed). It is made using HTML, CSS, and JavaScript",
     },
 ];
 
