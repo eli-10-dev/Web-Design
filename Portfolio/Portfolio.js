@@ -4,6 +4,7 @@ const projectTileDescriptionContainer = document.getElementById("projects");
 // Buttons
 const htmlCssBtn = document.getElementById("html-css-button");
 const javaScriptBtn = document.getElementById("javascript-button");
+const reactBtn = document.getElementById("reactjs-button");
 
 const htmlCssArr = [
     {
@@ -88,6 +89,44 @@ const javaScriptArr = [
     },
 ];
 
+const reactArr = [
+    {
+        href: "random-quote-generator-eli.netlify.app",
+        src: "https://www.proven.us/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F9wa6q93ebjja%2F1mfHRH70dRUEHqzKYXnXYf%2Fc7b446dc1cd2cc1b1eb54ecdbe9eaa71%2FQuotation_Marks_Featured.jpg&w=3840&q=100",
+        alt: "Random Quote Generator",
+        title: "Random Quote Generator",
+        description: "A Random Quote Generator website made using ReactJS. It utilizes an API for the quotes shown in the website",    
+    },
+    {
+        href: "markdown-previewer-eli.netlify.app",
+        src: "https://static1.xdaimages.com/wordpress/wp-content/uploads/2024/12/reasons-to-use-markdown-documentation-and-notetaking.jpg",
+        alt: "Mark Down Previewer",
+        title: "Mark Down Previewer",
+        description: "A Mark Down Previewer website made using ReactJS",    
+    },
+    {
+        href: "drum-machine-eli.netlify.app",
+        src: "https://img.freepik.com/free-vector/hand-drawn-drum-illustration_23-2150946304.jpg?semt=ais_hybrid&w=740",
+        alt: "Drum Website",
+        title: "Drum Website",
+        description: "A digital Drum Website made using ReactJS",    
+    },
+    {
+        href: "calculator-eli.netlify.app",
+        src: "https://media.istockphoto.com/id/1392292723/vector/vector-doodle-illustration-school-calculator-isolated-on-white.jpg?s=612x612&w=0&k=20&c=2dqceaXd0QxfWLY22JSETfdq3GfIntJPSMW14FVmLdg=",
+        alt: "Calculator Website",
+        title: "Calculator Website",
+        description: "A Calculator Website made using ReactJS",    
+    },
+    {
+        href: "",
+        src: "",
+        alt: "",
+        title: "",
+        description: "",    
+    },
+];
+
 const displayProjects = (array) => {
     projectTileDescriptionContainer.innerHTML = array.map(({href, src, alt, title, description}) => `
         <div class="project-row" id="project-tile-description-container">
@@ -109,3 +148,4 @@ const displayProjects = (array) => {
 displayProjects(htmlCssArr);
 htmlCssBtn.addEventListener("click", () => displayProjects(htmlCssArr));
 javaScriptBtn.addEventListener("click", () => displayProjects(javaScriptArr));
+reactBtn.addEventListener("click", () => displayProjects(reactArr));
