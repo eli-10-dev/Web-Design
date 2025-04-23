@@ -9,7 +9,7 @@ const reactBtn = document.getElementById("reactjs-button");
 const htmlCssArr = [
     {
         href: "//kairukpop.netlify.app/",
-        src: "https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-6/291926969_429288872544744_8489221057371934983_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGyistP_0Ytf5VgCIBjteaa6kNxImSe5cfqQ3EiZJ7lxyLBgNRPRNi1UaXBVbifYj6gT4T9OhTe-nuG68ZdLsRj&_nc_ohc=ry6LXdmXpuMQ7kNvgFUzSEi&_nc_oc=Adkz5ju-AqXE2VyGuuDdBYFXvbh_Hkf0d1Kqoy3SkL75JjzD7BEYg-Z7wOEBh_Xk8wU&_nc_zt=23&_nc_ht=scontent.fmnl30-1.fna&_nc_gid=Zr-8ch4Rh-q19so22HzemA&oh=00_AYH7Oh4cWnsTQ9qlb7O_lCPqiNm4cfWON-S9OVBElV7B5w&oe=67E558D5",
+        src: "https://mapetitecoree.com/cdn/shop/articles/army-sejati-yuk-kenalan-sama-karakter-bt21-karya-member-bts-m3UeiIGJLd.jpg?v=1672451852",
         alt: "Kairu Kpop Shop logo",
         title: "Kairu Kpop Shop",
         description: "E-commerce website for a Kpop Shop selling photocards, clothes, accessories, and other merch! It is made using bootstrap.",    
@@ -91,39 +91,32 @@ const javaScriptArr = [
 
 const reactArr = [
     {
-        href: "random-quote-generator-eli.netlify.app",
+        href: "https://random-quote-generator-eli.netlify.app/",
         src: "https://www.proven.us/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F9wa6q93ebjja%2F1mfHRH70dRUEHqzKYXnXYf%2Fc7b446dc1cd2cc1b1eb54ecdbe9eaa71%2FQuotation_Marks_Featured.jpg&w=3840&q=100",
         alt: "Random Quote Generator",
         title: "Random Quote Generator",
         description: "A Random Quote Generator website made using ReactJS. It utilizes an API for the quotes shown in the website",    
     },
     {
-        href: "markdown-previewer-eli.netlify.app",
+        href: "https://markdown-previewer-eli.netlify.app/",
         src: "https://static1.xdaimages.com/wordpress/wp-content/uploads/2024/12/reasons-to-use-markdown-documentation-and-notetaking.jpg",
         alt: "Mark Down Previewer",
         title: "Mark Down Previewer",
         description: "A Mark Down Previewer website made using ReactJS",    
     },
     {
-        href: "drum-machine-eli.netlify.app",
+        href: "https://drum-machine-eli.netlify.app/",
         src: "https://img.freepik.com/free-vector/hand-drawn-drum-illustration_23-2150946304.jpg?semt=ais_hybrid&w=740",
         alt: "Drum Website",
         title: "Drum Website",
         description: "A digital Drum Website made using ReactJS",    
     },
     {
-        href: "calculator-eli.netlify.app",
+        href: "https://calculator-eli.netlify.app/",
         src: "https://media.istockphoto.com/id/1392292723/vector/vector-doodle-illustration-school-calculator-isolated-on-white.jpg?s=612x612&w=0&k=20&c=2dqceaXd0QxfWLY22JSETfdq3GfIntJPSMW14FVmLdg=",
         alt: "Calculator Website",
         title: "Calculator Website",
         description: "A Calculator Website made using ReactJS",    
-    },
-    {
-        href: "",
-        src: "",
-        alt: "",
-        title: "",
-        description: "",    
     },
 ];
 
