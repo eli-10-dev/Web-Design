@@ -16,7 +16,7 @@ const htmlCssArr = [
     },
     {
         href: "https://codepen.io/eli-10-dev/pen/KwPYVBP",
-        src: "https://www.platoforms.com/images/posts/2022/what%E2%80%99s-the-difference-between-survey-form-and-a-questionnaire.jpg",
+        src: "https://form-publisher.com/blog/content/images/size/w1200/2022/08/How-to-Make-a-Survey-in-Google-Forms.png",
         alt: "Survey Form",
         title: "Survey Form",
         description: "A simple survey form wepage that is made using flexbox.",
@@ -117,6 +117,13 @@ const reactArr = [
         alt: "Calculator Website",
         title: "Calculator Website",
         description: "A Calculator Website made using ReactJS",    
+    },
+    {
+        href: "https://study-timer-eli.netlify.app/",
+        src: "https://play-lh.googleusercontent.com/CFm-zUkpWYoBi6foXFmHSn4WsfhIYzzMVxzybDLwyCfBK_jBK8SOeL-jCtNIKwZ_Kw=w526-h296-rw",
+        alt: "Study Session Website",
+        title: "Study Session Website",
+        description: "A study session website where the user can set the amount of rest and study time that they want. The study and rest sessions cycle until the user decides to reset or pause the timer.",    
     },
 ];
 
